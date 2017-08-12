@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class ModifiedMagpie
+{
+    // returns a list of positions of keyword in str
+    // returns empty list if no such positions
+    public static List<Integer> findKeyword(String str, String keyword)
+    {
+        List<Integer> list = new ArrayList<Integer>();
+    	for(int k = 0; k < str.length(); k++){
+        	
+        	if(str.substring(k, keyword.length() + k).equals(keyword))
+        		list.add(k);
+        }
+    	return list;
+    }
+    
+    // returns a list of positions of isolated occurrences of keyword in str
+    // returns empty list if no such positions
+    public static List<Integer> findIsolatedKeyword(String str, String keyword)
+    {
+        return null;
+    }
+}

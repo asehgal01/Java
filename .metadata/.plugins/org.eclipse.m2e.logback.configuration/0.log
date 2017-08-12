@@ -1,0 +1,43 @@
+2017-02-09 18:23:36,129 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-02-16 16:15:04,940 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-02-21 10:13:10,310 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-02-21 10:14:52,344 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-02-21 21:01:00,958 [Framework stop] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: /Users/akhilsehgal/Documents/Java/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_111]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_111]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_111]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_111]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:127) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:935) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator.stop(MavenPluginActivator.java:296) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:830) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_111]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:823) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:946) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.container.Module.stop(Module.java:498) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1661) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1580) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.container.Module.stop(Module.java:498) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165) [org.eclipse.osgi_3.11.2.v20161107-1947.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2017-02-23 13:22:54,151 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-03-01 18:33:48,725 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-03-06 14:17:18,307 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-03-11 09:13:42,256 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-03-13 08:20:03,646 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-03-13 21:19:45,927 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-03-15 06:05:08,238 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-03-22 13:20:07,671 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-03-27 13:47:33,354 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-04-08 08:48:48,094 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-04-17 12:43:07,388 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-04-21 10:59:33,695 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-04-22 13:11:05,697 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
